@@ -1,0 +1,69 @@
+header{
+  width: 100%;
+  height: 300px;
+  font-size: 20px;
+  color: white;
+  font-family: helvetica;
+  background-image: url(afbeeldingen/hoekvanholland.jpg);
+}
+
+body{
+  background-color: #023020;
+}
+@media only screen and (min-width: 600px)  {
+
+h1{
+  margin-left: 20px;
+  margin-top: 200px;
+}
+
+[class*="col-"]{
+  float: left;
+  padding-left: 15px;
+}
+
+.col-1 {width: 16.66%;}
+.col-2 {width: 8.33%;}
+.col-3 {width: 75%;}
+.col-4 {width: 75%;}
+
+.feitjes ul{
+  list-style-image: url(afbeeldingen/search.png) 20px;;
+  font-size: 15px;
+  margin: 0;
+  padding: 5px;
+}
+
+.feitjes li{
+  background-color: #98C1A9;
+  padding: 8px;
+}
+
+.artikel1{
+  background-color: #9DEBD6;
+  float: right;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.artikel2{
+  background-color: #9DEBD6;
+  float: right;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.fort{
+  float: right;
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+}
+
+.beachhouse{
+  float: right;
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  border-radius: 5px;
+}
