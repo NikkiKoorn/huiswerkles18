@@ -4,7 +4,7 @@ header{
   font-size: 20px;
   color: white;
   font-family: helvetica;
-  background-image: url(afbeeldingen/hoekvanholland.jpg);
+  background-image: url(hoekvanholland.jpg);
 }
 
 body{
@@ -28,7 +28,7 @@ h1{
 .col-4 {width: 75%;}
 
 .feitjes ul{
-  list-style-image: url(afbeeldingen/search.png) 20px;;
+  list-style-image: url(search.png) 20px;;
   font-size: 15px;
   margin: 0;
   padding: 5px;
